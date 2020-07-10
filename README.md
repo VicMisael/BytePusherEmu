@@ -1,2 +1,2 @@
 # BytePusherEmu
-BytePusher Emu made using C++ SDL2 and OpenGL
+BytePusher "Emulator" made using C++ SDL2 and OpenGL
