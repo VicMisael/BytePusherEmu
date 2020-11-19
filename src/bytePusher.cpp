@@ -28,8 +28,8 @@ void loadPalette() {
 
 
 		blue = color % 6;
-		green = ((color - blue) / 6) % 6;
-		red = ((color - blue - (6 * green)) / 36) % 6;
+		green = ((color) / 6) % 6;
+		red = ((color) / 36) % 6;
 		uint32_t _color32val = 0;//32 bit unsigned integer
 		((uint8_t*)&_color32val)[0] = red; //Access 8 bits as an array
 		((uint8_t*)&_color32val)[1] = green;
